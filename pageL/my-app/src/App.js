@@ -19,7 +19,6 @@ function App() {
         <Route path="/checkout" element={<Checkout></Checkout>} />
        </Routes>
     </Router>
-
     <Footer></Footer>
     </>
    );
