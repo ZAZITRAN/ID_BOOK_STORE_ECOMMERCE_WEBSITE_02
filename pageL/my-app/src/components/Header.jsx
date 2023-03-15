@@ -3,9 +3,9 @@ function Header() {
         <>
         <header>
   <div className="logo-img">
-    <div>
+    
       <img src="img/logologo-img.png" alt="" />
-    </div>
+    
   </div>
   <div className="input-center">
     <div className="menu">
@@ -18,6 +18,7 @@ function Header() {
   </div>
   <div className="header-right">
     <div className="icon2">
+    <i className="fa-solid fa-magnifying-glass"></i>
       <i className="fa-regular fa-heart" />
       <i className="fa-solid fa-cart-shopping" />
       <img className="imguser" src="img/khunglong.jpg" alt="" />
