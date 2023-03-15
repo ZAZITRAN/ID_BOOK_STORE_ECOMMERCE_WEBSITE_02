@@ -191,7 +191,7 @@ function Detail() {
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua
   </div>
-  <div className="ng">
+  <div className="ng ccgg">
     <div className="wrap-danhgia">
       <div className="ttsp-list-star ng">
         <i className="fa-solid fa-star" />

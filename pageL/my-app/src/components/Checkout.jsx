@@ -18,7 +18,7 @@ function Checkout() {
             alt=""
           />
         </div>
-        <div>checkout</div>
+        <div className="shopping lq">checkout</div>
         <div className="checktron-white">
           <img
             className="checktron-yellow-child"
@@ -31,7 +31,7 @@ function Checkout() {
             alt=""
           />
         </div>
-        <div>Payament</div>
+        <div className="shopping lq">Payament</div>
         <div className="checktron-white">
           <img
             className="checktron-yellow-child"
@@ -44,11 +44,11 @@ function Checkout() {
             alt=""
           />
         </div>
-        <div>Shipping</div>
+        <div className="shopping lq">Shipping</div>
       </div>
       <div className="wrapper-chuto">
         <div className="chuto">Buyer Info</div>
-        <div className="chuto">Payment</div>
+        <div className="chuto none">Payment</div>
       </div>
       <div className="checkout-validate">
         <div className="validate-left ">
@@ -98,7 +98,7 @@ function Checkout() {
             <div className="block-card yellow">
               <img src="checkout.img/atm-card 1.png" alt="" />
               <div>Credit Card</div>
-              <input type="checkbox" defaultChecked="" checked />
+              <input type="checkbox" defaultChecked="true"  />
             </div>
             <div className="block-card">
               <img src="checkout.img/paypal (1) 1.png" alt="" />
