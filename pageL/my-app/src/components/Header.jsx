@@ -19,8 +19,8 @@ function Header() {
   <div className="header-right">
     <div className="icon2">
     <i className="fa-solid fa-magnifying-glass"></i>
-      <i className="fa-regular fa-heart" />
-      <i className="fa-solid fa-cart-shopping" />
+      <i className="fa-regular fa-heart" data-heart="0" />
+      <i className="fa-solid fa-cart-shopping" data-shopping="9" />
       <img className="imguser" src="img/khunglong.jpg" alt="" />
       <div className="tt-user">
         <div className="nameUser">Brian</div>
