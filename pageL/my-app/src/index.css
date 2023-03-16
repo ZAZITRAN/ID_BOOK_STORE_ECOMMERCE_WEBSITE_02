@@ -29,6 +29,10 @@ header{
   height: 40px;
 
 }
+.text-gray{
+  font-size: smaller;
+  color: gray;
+}
 .ql-input{
   width: 80%;
   display: flex;
@@ -45,6 +49,63 @@ header{
   padding-left: 15px;
   caret-color: #EAA451;
 
+}
+.pagination{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.pagination i{
+  font-size: 10px;
+  line-height: 1.2;
+  margin: 0 3px;
+  margin-top: 2px;
+}
+.pagination__left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  background-color: rgba(211, 211, 211, 0.495);
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 550;
+}
+.pagination__number{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin: 0 10px;
+}
+.pagination__number div{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 2.3;
+
+}
+.pagination__number div.target{
+  background-color: #131045;
+  color: white;
+}
+.pagination__right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 60px;
+  background-color: rgba(211, 211, 211, 0.495);
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 550;
 }
 .ql-input img{
   
@@ -75,7 +136,7 @@ header{
 }
 .header-right .fa-heart::after{
 position: absolute;
-  content: "5";
+  content: attr(data-heart);
   background-color: red;
   left: 12px;
   top: -8px;
@@ -92,7 +153,7 @@ position: absolute;
 }
 .header-right .fa-cart-shopping::after{
   position: absolute;
-    content: "2";
+    content: attr(data-shopping);
     background-color: red;
     left: 12px;
     top: -8px;
